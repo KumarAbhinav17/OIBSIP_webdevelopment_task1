@@ -16,3 +16,24 @@ Header with navigation bar
 About, Features, and Contact sections
 Contact form with input fields
 Footer section
+
+Project Structure
+OIBSIP_webdevelopment_task1/
+├── index.html
+├── style.css
+└── README.md
+
+Live Demo
+Live Website: https://kumarabhinav17.github.io/OIBSIP_webdevelopment_task1/
+
+GitHub Repository
+GitHub Repo: https://github.com/KumarAbhinav17/OIBSIP_webdevelopment_task1
+
+Learning Outcome
+
+Practiced writing semantic HTML and clean CSS
+
+Understood responsive web design fundamentals
+
+Learned how to use Git for version control and host projects using GitHub Pages
+
