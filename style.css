@@ -1,66 +1,107 @@
-/* Reset default margin/padding */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* Set overall font and background */
 body {
-  font-family: Arial, sans-serif;
-  background-color: #f9f9f9;
+  font-family: 'Segoe UI', sans-serif;
   line-height: 1.6;
+  color: #222;
+  background: #fff;
 }
 
-/* Header Section */
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
 header {
-  background-color: #333;
+  background: #1f1f1f;
+  padding: 20px 0;
   color: #fff;
-  padding: 1rem 0;
-  text-align: center;
 }
 
-nav a {
-  color: #fff;
-  margin: 0 1rem;
-  text-decoration: none;
+header .logo {
+  font-size: 24px;
   font-weight: bold;
 }
 
-/* Section Styling */
-section {
-  background: white;
-  padding: 2rem;
-  margin: 1rem auto;
-  max-width: 800px;
-  border-radius: 8px;
-  box-shadow: 0 0 8px rgba(0,0,0,0.1);
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
 }
 
-/* Form Styling */
-form input,
-form textarea {
-  width: 100%;
-  padding: 0.75rem;
-  margin-bottom: 1rem;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-}
-
-form button {
-  background-color: #333;
+nav a {
   color: white;
-  padding: 0.75rem 1.5rem;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
+  text-decoration: none;
 }
 
-/* Footer */
-footer {
-  background-color: #333;
-  color: white;
+.hero {
+  background: #f5f7fa;
+  padding: 60px 20px;
   text-align: center;
-  padding: 1rem 0;
-  margin-top: 2rem;
+}
+
+.hero h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.cta-button {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 24px;
+  background-color: #0f8b8d;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: bold;
+}
+
+.features {
+  background: #fff;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.feature {
+  margin: 20px 0;
+}
+
+.feature img {
+  width: 80px;
+}
+
+.devices {
+  background: #f5f7fa;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.stats {
+  background: #fff0f3;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.stat-grid {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin-top: 30px;
+}
+
+.stat-grid h3 {
+  font-size: 36px;
+  color: #0f8b8d;
+}
+
+footer {
+  background: #1f1f1f;
+  color: #ccc;
+  text-align: center;
+  padding: 20px 0;
 }
