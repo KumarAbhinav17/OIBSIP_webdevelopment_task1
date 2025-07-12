@@ -3,46 +3,83 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Landing Page</title>
+  <title>SecureConnect - VPN Landing Page</title>
   <link rel="stylesheet" href="style.css" />
 </head>
-
 <body>
   <header>
-    <h1>My First Landing Page</h1>
-    <nav>
-      <a href="#about">About</a>
-      <a href="#features">Features</a>
-      <a href="#contact">Contact</a>
-    </nav>
+    <div class="container">
+      <h1 class="logo">SecureConnect</h1>
+      <nav>
+        <ul>
+          <li><a href="#features">Features</a></li>
+          <li><a href="#devices">Devices</a></li>
+          <li><a href="#stats">Stats</a></li>
+        </ul>
+      </nav>
+    </div>
   </header>
 
-  <section id="about">
-    <h2>About Us</h2>
-    <p>We build simple and modern websites.</p>
+  <section class="hero">
+    <div class="container">
+      <h2>The VPN that just works</h2>
+      <p>Connect securely with the #1 trusted VPN for privacy and performance.</p>
+      <a href="#" class="cta-button">Get SecureConnect</a>
+    </div>
   </section>
 
-  <section id="features">
-    <h2>Features</h2>
-    <ul>
-      <li>Clean Design</li>
-      <li>Fast Loading</li>
-      <li>Mobile Friendly</li>
-    </ul>
+  <section class="features" id="features">
+    <div class="container">
+      <div class="feature">
+        <img src="https://img.icons8.com/fluency/96/lock.png" alt="Lock Icon">
+        <h3>Secure Access, Worldwide</h3>
+        <p>Connect safely from anywhere with our global network of high-speed servers.</p>
+      </div>
+      <div class="feature">
+        <img src="https://img.icons8.com/fluency/96/speed.png" alt="Speed Icon">
+        <h3>Lightning-fast Speeds</h3>
+        <p>Browse and stream with minimal lag and ultra-fast connections.</p>
+      </div>
+      <div class="feature">
+        <img src="https://img.icons8.com/fluency/96/privacy.png" alt="Privacy Icon">
+        <h3>Stronger Data Protection</h3>
+        <p>Your personal information stays private and encrypted — always.</p>
+      </div>
+    </div>
   </section>
 
-  <section id="contact">
-    <h2>Contact</h2>
-    <form>
-      <input type="text" placeholder="Your Name" required>
-      <input type="email" placeholder="Your Email" required>
-      <textarea placeholder="Your Message"></textarea>
-      <button type="submit">Send</button>
-    </form>
+  <section class="devices" id="devices">
+    <div class="container">
+      <h2>Use SecureConnect on Every Device</h2>
+      <p>Access the internet safely on mobile, desktop, tablet, or TV — all with one subscription.</p>
+      <img src="https://img.icons8.com/color/240/laptop-settings.png" alt="Devices" style="max-width: 250px;">
+    </div>
+  </section>
+
+  <section class="stats" id="stats">
+    <div class="container">
+      <h2>Ultra-fast servers around the globe</h2>
+      <div class="stat-grid">
+        <div>
+          <h3>160</h3>
+          <p>Locations</p>
+        </div>
+        <div>
+          <h3>94</h3>
+          <p>Countries</p>
+        </div>
+        <div>
+          <h3>∞</h3>
+          <p>Unlimited Bandwidth</p>
+        </div>
+      </div>
+    </div>
   </section>
 
   <footer>
-    <p>&copy; 2025 My Website</p>
+    <div class="container">
+      <p>&copy; 2025 SecureConnect. All rights reserved.</p>
+    </div>
   </footer>
 </body>
 </html>
