@@ -19,9 +19,9 @@ Footer section
 
 Project Structure
 OIBSIP_webdevelopment_task1/
-├── index.html
-├── style.css
-└── README.md
+index.html
+style.css
+README.md
 
 Live Demo
 Live Website: https://kumarabhinav17.github.io/OIBSIP_webdevelopment_task1/
